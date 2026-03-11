@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    background-color: #f4ecd8;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 8%;
+    
+}
+
+nav ul{
+    list-style: none;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 2.5rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.won{
+    border-radius: 34px;
+    padding-inline: 10px;
+    background-color: azure;
+    border-color: grey;
+    border-style: solid;
+    
+}
+
+.section-one{
+    position: relative;
+    top: 16%;
+    left: 8px;
+    padding-block: 30px;
+    margin: 50px;
+}
+.sec-1 h1{
+    font-weight: 600;
+    font-size: 50px;
+    color: black;
+}
+
+.sec-1 p{
+    font-weight: 400;
+    font-size: 16px;
+    color: gray;
+}
+
+.bnt-1{
+    padding-inline: 20px;
+    border-radius: 32px;
+    padding-block: 9px;
+    background: brown;
+    color: white;
+    border-style: solid;
+    border-color: brown;
+
+}
+
+.bnt-2{
+    padding-inline: 20px;
+    padding-block: 9px;
+    border-radius: 32px;
+    border-color: grey;
+    border-style: solid;
+    color:darkred;
+}
+
+.sec-1 img{
+    width: 300px;
+}
+
+
+.section-two{
+  position: relative;
+    top: 16%;
+    left: 8px;
+    padding-block: 30px;
+    margin: 50px;   
+}
+
+.sec-2 img{
+    width: 300px;
+}
+.sec-2 h2{
+  font-weight: 600;
+    font-size: 50px;
+    color: black;  
+}
+
+.sec-2 p{
+  font-weight: 400;
+    font-size: 16px;
+    color: gray;   
+}
+
+.sec-2 button{
+   padding-inline: 20px;
+    border-radius: 32px;
+    padding-block: 9px;
+    background: brown;
+    color: white;
+    border-style: solid;
+    border-color: brown;
+  
+}
+
+.section-three{
+ position: relative;
+    top: 16%;
+    left: 8px;
+    padding-block: 30px;
+    margin: 50px;   
+}
+
+.sec-3 h2{
+  font-weight: 600;
+    font-size: 50px;
+    color: black;  
+}
+
+.ton img{
+    width: 100px;
+    padding: 2% 20%;
+    border-radius: 50%;
+
+}
+
+.two{
+    display: flex;
+    gap: 25%;
+    
+}
+
+.one{
+    width: 220px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+    background-color: #f4ecd8;
+}
+
+.one p{
+    color: grey;
+}
+
+
+.com1 img{
+  width: 100px;
+    padding: 2% 20%;
+    border-radius: 50%;   
+}
+
+.com2{
+     display: flex;
+    gap: 25%;
+}
+
+.com{
+  width: 220px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15) ;
+    background-color: #f4ecd8;   
+}
+
+.com p{
+    color: gray;
+}
+
+.hom1 img{
+    width: 100px;
+    padding: 2% 20%;
+    border-radius: 50%;  
+}
+
+.hom2{
+    display: flex;
+    gap: 25%;
+}
+
+.hom{
+ width: 220px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+    background-color: #f4ecd8;
+}
+
+.section-four{
+  position: relative;
+    top: 16%;
+    left: 8px;
+    padding-block: 30px;
+    margin: 50px;     
+}
+
+.sec-4 h2{
+    font-weight: 600;
+    font-size: 50px;
+    color: black; 
+}
+
+.img1 img{
+    width: 200px;
+    border-radius: 15%;
+    margin-bottom: 15%;
+    padding: 2% 10%;
+}
+
+.sec-4-1{
+    width: 280px;
+    padding-top: 30px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: #f6edd6;
+}
+
+.sec-4-1 h3{
+font-size: 20px;
+margin-bottom: 10px;
+color: #333;
+}
+
+.ton{
+    font-size: 12px;
+    color:gold;
+}
+
+.tan{
+    font-size: 13px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.sec-4-1 a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.hun img{
+    width: 200px;
+    border-radius: 15%;
+    margin-bottom: 15%;
+    padding: 2% 10%;  
+}
+
+.him{
+     width: 280px;
+    padding-top: 30px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: #f6edd6;
+}
+
+.him h3{
+    font-size: 20px;
+margin-bottom: 10px;
+color: #333;
+}
+
+.htn{
+    font-size: 12px;
+    color:gold;
+}
+
+.hbn{
+   font-size: 13px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    color: #666;  
+}
+
+.him a{
+   text-decoration: none;
+    color: #333;
+    font-weight: 400;
+    font-size: 14px;
+}  
+
+
+.bun img{
+     width: 200px;
+    border-radius: 15%;
+    margin-bottom: 15%;
+    padding: 2% 10%;  
+}
+
+.bom{
+   width: 280px;
+    padding-top: 30px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);;
+    background-color: #f6edd6; 
+}  
+
+.bom h3{
+     font-size: 20px;
+margin-bottom: 10px;
+color: #333;
+}
+
+.bin{
+     font-size: 12px;
+    color:gold;
+}
+
+.ben{
+     font-size: 13px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.bom a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+    font-size: 14px; 
+}
+
+
+.section-five{
+     position: relative;
+    top: 16%;
+    left: 8px;
+    padding-block: 30px;
+    margin: 50px;   
+}
+
+.sec-5 h2{
+    font-weight: 600;
+    font-size: 50px;
+    color: black;
+}
+
+.ken{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sec-5 img{
+    width: 115px;
+    border-radius: 50%;
+}
+
+.kon img{
+    width: 20px;
+    
+}
+
+.kin{
+    width: 320px;
+}
+
+.kon{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.kon input,
+.kon textarea{
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    background: #fff;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+}
+
+.kon textarea{
+    border-radius: 20px;
+    resize: none;
+}
+
+.kin button{
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    background: #f6a623;
+    cursor: pointer;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width:1200px){
+    .section-one{
+        display: flex;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

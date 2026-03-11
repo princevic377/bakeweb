@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 8%;
+}
+.logo h1 a{
+    font-size: 2rem;
+    color: gold;
+    text-decoration: none;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 2.5rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: gold;
+}
+.content{
+    width: 50%;
+    position: relative;
+    top: 16%;
+    left:8% ;
+}
+form{
+    margin: 2.4rem 0;
+}
+input{
+    font-size: 1.5rem;
+}
+input[type=text],
+input[type=email]{
+    width: 50%;
+    display: block;
+    padding: 14px 20px;
+    margin: 1.2rem 0;
+    border: 1px solid red;
+
+}
+input[type=submit]{
+    text-transform: uppercase;
+    font-weight: 900px;
+    border-radius: 6px;
+    width: 50%;
+    background-color: gold;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+}
+input::placeholder{
+    font-size: ;
+}
+header{
+    height: 100vh;
+    background: linear-gradient(270deg,rgba(145, 128, 128, 0.7)),rgba(0,0,0,0.7)
+     url(kenny-cinders-7qRM11Kmnh4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+.about-us{
+    padding: 100px 0;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin: auto;
+}
+.about-right img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;  
+}
+.about-right, .about-middle, .about-left{
+    flex-basis: 30%;
+    padding: 1.6rem;
+}
+.btn{
+    text-decoration: none;
+    padding: 1em 1em;
+    background-color: gold;
+
+}
+.para{
+    padding: 1rem;
+}
